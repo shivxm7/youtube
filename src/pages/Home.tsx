@@ -10,6 +10,7 @@ export default function Watch() {
 
   useEffect(() => {
     dispatch(getHomePageVideos(false))
+    console.log(videos)
   }, [dispatch])
   
 
